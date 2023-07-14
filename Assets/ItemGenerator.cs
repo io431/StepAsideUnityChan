@@ -35,7 +35,7 @@ public class ItemGenerator : MonoBehaviour
         float unityChanPos = unitychan.transform.position.z;
 
         // ユニティちゃんの進行に応じてアイテムを生成
-        if (unityChanPos + 50> lastGeneratedPos && unityChanPos + 50 < 360 )
+        if (unityChanPos + 50> lastGeneratedPos && unityChanPos + 50 < goalPos )
         {
             // アイテム生成位置を更新
             lastGeneratedPos += 10;
